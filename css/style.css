@@ -539,8 +539,9 @@ ul li {
 .modal-sbm-close:hover , .modal-sbm-close:focus{
     background-color: #404bbf;
     border: none;
-    fill: #fffff;
+    fill: #ffffff;
 }
+
 .modal-svg-close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2E2F42;
@@ -633,9 +634,12 @@ ul li {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     
 }
 .modal-span-check{
+    border-radius: 2px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
