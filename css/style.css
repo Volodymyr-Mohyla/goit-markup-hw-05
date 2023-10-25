@@ -638,6 +638,7 @@ ul li {
     
 }
 .modal-span-check{
+    margin-right: 8px;
     border-radius: 2px;
     width: 16px;
     height: 16px;
