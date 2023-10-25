@@ -459,6 +459,80 @@
             </div>
         </div>
     </footer>
+
+    <!--todo Modal Window -->
+    <div class="modal-window-back">
+        <div class="modal-window">
+            <button class="modal-sbm-close" type="submit">
+                <svg class="modal-svg-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-modal"></use>
+                </svg>
+            </button>
+            <p class="text-modal">
+                Leave your contacts and we will call you back
+            </p>
+            <form>
+                <div class="modal-div-form">
+                    <label class="modal-label" for="user-name">
+                        Name
+                    </label>
+                    <div class="modal-inpt-div">
+                        <input class="modal-inpt" type="text" name="user-name" placeholder="" id="user-name" />
+                        <svg class="modal-svg-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-modal"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-div-form">
+                    <label class="modal-label" for="user-phone">
+                        Phone
+                    </label>
+                    <div class="modal-inpt-div">
+                        <input class="modal-inpt" type="tel" name="tel" placeholder="" id="user-phone" />
+                        <svg class="modal-svg-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-modal"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-div-form">
+                    <label class="modal-label" for="user-email">
+                        Email
+                    </label>
+                    <div class="modal-inpt-div">
+                        <input class="modal-inpt" type="email" name="tel" placeholder="" id="user-email" />
+                        <svg class="modal-svg-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-modal"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-div-form">
+                    <label class="modal-label" for="user-comment">
+                        Comment
+                    </label>
+                    <div class="modal-inpt-div">
+                        <textarea id="user-comment" name="user-comment" class="modal-textarea" rows="5"
+                            placeholder="Text input">
+                        </textarea>
+                    </div>
+                </div>
+                <div class="modal-div-form-priv">
+                    <input class="modal-inpt-checkbox visually-hidden" type="checkbox" name="user-privacy"
+                        placeholder="" id="user-privacy" value="true" />
+                    <label class="modal-label-priv" for="user-privacy">
+                        <span class="modal-span-check">
+                            <svg class="modal-check-svg-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-check-click"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="modal-link" href="">
+                            Privacy Policy
+                        </a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
