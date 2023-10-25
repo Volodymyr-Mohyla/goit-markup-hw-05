@@ -407,6 +407,7 @@ ul li {
 .footer-div{
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 .footer-logo-text{
     margin-right: 120px;
@@ -433,5 +434,61 @@ ul li {
 }
 .list-ikon-soc-foot .linc-ikon-soc:hover,.list-ikon-soc-foot .linc-ikon-soc:focus{
     background-color: #31d0aa;
+}
+.div-footer-form{
+    margin-left: 80px;
+}
+.text-footer-form{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-inp{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF;
+    outline: 0; /* Ловим мерский дефолтный бардюр черный при фокусе, не знаю почему но псевдоклассами он не ловился но так сработало */ 
+}
+.footer-inp::placeholder{
+    color: #ffffff;
+}
+.footer-sbm{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em; /* 0.64/16 */
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+.subm-footer-svg{
+    margin-left: 16px;
+    fill: #ffffff;
 }
 /*------ END SECTION FOOTER ------*/
