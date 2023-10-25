@@ -536,18 +536,17 @@ ul li {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-sbm-close:hover , .modal-sbm-close:focus{
+.modal-sbm-close:hover, .modal-sbm-close:focus{
+   
     background-color: #404bbf;
     border: none;
+}
+.modal-sbm-close:hover .modal-svg-close, .modal-sbm-close:focus .modal-svg-close{
     fill: #ffffff;
 }
-
 .modal-svg-close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2E2F42;
-}
-.modal-svg-close:hover , .modal-svg-close:focus{
-    fill: #ffffff;
 }
 .text-modal{
     /* Body Medium */
